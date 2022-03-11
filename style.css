@@ -1,0 +1,57 @@
+body{
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+#heading{
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    color: black;
+}
+#intro{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 70px;
+}
+#app{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: darkgrey;
+    width: 290px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+#label1, #label2{
+    font-size: 25px;
+    padding-left: 30px;
+}
+#from, #to{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    height: 30px;
+    width: 250px;
+    border: 1px black dashed;
+    border-radius: 50px;
+}
+#fromInput, #toInput{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    height: 30px;
+    width: 250px;
+    border: 1px black solid;
+}
+#result, #swap{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 80px;
+    height: 40px;
+    border: 2px white solid;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

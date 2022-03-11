@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="heading">Converter</h1>
+        <p id="intro">This is a converted from one number system to another number system. Click! on Answer to find the value.
+            Click! on Swap to interchange the number system from to to and vice-versa.
+        </p>
+        <div id="app">
+            <div id="fromside">
+                <br>
+                <label for="from" id="label1">From:</label>
+                <br>
+                <br>
+                <select id="from">
+                    <option value="2">Binary</option>
+                    <option value="10">Decimal</option>
+                    <option value="16">Hexadecimal</option>
+                    <option value="8">Octal</option>
+                </select>
+                <input type="number" id="fromInput">
+            </div>
+            <div id="toside">
+                <label for="to" id="label2">To:</label>
+                <br>
+                <br>
+                <select id="to">
+                    <option value="2">Binary</option>
+                    <option value="10">Decimal</option>
+                    <option value="16">Hexadecimal</option>
+                    <option value="8">Octal</option>
+                </select>
+                <input type="number" id="toInput">
+            </div>
+            <div id="btnss">
+                <button id="result">Answer</button>
+                <button id="swap">Swap</button>
+            </div>
+        </div>
+        <script src="index.js" async defer></script>
+    </body>
+</html>
